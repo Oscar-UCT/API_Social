@@ -1,0 +1,35 @@
+{
+  "name": "api_social",
+  "version": "1.0.0",
+  "description": "API demo simulando una red social",
+  "homepage": "https://github.com/Oscar-UCT/API_Social#readme",
+  "bugs": {
+    "url": "https://github.com/Oscar-UCT/API_Social/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscar-UCT/API_Social.git"
+  },
+  "license": "ISC",
+  "author": "Oscar",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
