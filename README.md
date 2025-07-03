@@ -4,5 +4,6 @@ API demo simulando una red social desarrollada con Node.js, Express y MongoDB.
 La API cuenta con 3 colecciones o modelos:
 * Posts
 * Comentarios
-* Usuarios\
+* Usuarios
+\
 Cada post tiene su autor (el usuario), y una lista de comentarios. Cada comentario igualmente tiene su autor.
