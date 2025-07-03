@@ -5,7 +5,6 @@ La API cuenta con 3 colecciones o modelos:
 * Posts
 * Comentarios
 * Usuarios
-
 <br>
 
 Cada post tiene su autor (el usuario), y una lista de comentarios. Cada comentario igualmente tiene su autor.
