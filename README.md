@@ -15,7 +15,6 @@ Cada post tiene su autor (el usuario), y una lista de comentarios. Cada comentar
 
 ![Ejemplo GET](https://github.com/user-attachments/assets/fa025975-bd30-42e9-970e-3ccb3cc7708d)
 ```json
-Respuesta completa
 [
     {
         "_id": "6865cfb246b87621c90c8bd2",
