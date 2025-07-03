@@ -7,5 +7,5 @@ La API cuenta con 3 colecciones o modelos:
 * Usuarios
 <br>
 Cada post tiene su autor (el usuario), y una lista de comentarios. Cada comentario igualmente tiene su autor.\
-**GET** /api/v1/posts entregaría algo así:
-[Ejemplo GET](https://github.com/user-attachments/assets/fa025975-bd30-42e9-970e-3ccb3cc7708d)
+**GET** /api/v1/posts entregaría algo así:\
+![Ejemplo GET](https://github.com/user-attachments/assets/fa025975-bd30-42e9-970e-3ccb3cc7708d)
