@@ -22,6 +22,7 @@ exports.getPosts = async (req, res, next) => {
         const posts = await Post.find()
             .populate({
                 path: "comments",
+                select: "content createdBy",
                 populate: { path: "createdBy", select: "username" }
             })
             .populate("createdBy", "username");
